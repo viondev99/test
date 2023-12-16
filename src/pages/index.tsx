@@ -22,10 +22,10 @@ export default function Home() {
         />
         <meta
           name='og:image'
-          content='/metaHome.png'
+          content='http://7oroof.com/demos/steakin/assets/images/sliders/slide-bg/2.jpg'
         />
         <meta name='viewport' content='width=device-width, initial-scale=1' />
-        <link rel='icon' href='/favicon.ico' />
+        <link rel='icon' href='/nemo.favicon.ico' />
       </Head>
       <main className={`${styles.main} ${inter.className}`}>
         <div className={styles.description}>
