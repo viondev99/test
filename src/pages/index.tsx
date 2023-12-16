@@ -3,6 +3,7 @@ import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
 import HomePage from '@/components/home'
+import CONFIG from '@/config/production.config'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -23,7 +24,7 @@ export default function Home() {
         />
         <meta
           name='og:image'
-          content='https://ik.imagekit.io/vion/_assets/banner.png?updatedAt=1702730987746'
+          content={`${CONFIG.IMAGE_CDN_URL}/banner.png?updatedAt=1702729186930`}
         />
         <meta name='viewport' content='width=device-width, initial-scale=1' />
         <link rel='icon' href='/nemo.favicon.ico' />
