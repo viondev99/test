@@ -23,7 +23,7 @@ export default function Home() {
         />
         <meta
           name='og:image'
-          content='http://7oroof.com/demos/steakin/assets/images/sliders/slide-bg/2.jpg'
+          content='https://ik.imagekit.io/vion/_assets/banner.png?updatedAt=1702730987746'
         />
         <meta name='viewport' content='width=device-width, initial-scale=1' />
         <link rel='icon' href='/nemo.favicon.ico' />
