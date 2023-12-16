@@ -22,7 +22,7 @@ export default function Home() {
         />
         <meta
           name='og:image'
-          content='http://7oroof.com/demos/steakin/assets/images/sliders/slide-bg/2.jpg'
+          content='/metaHome.png'
         />
         <meta name='viewport' content='width=device-width, initial-scale=1' />
         <link rel='icon' href='/favicon.ico' />
